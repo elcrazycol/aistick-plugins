@@ -1,0 +1,28 @@
+# Репозиторий плагинов AIstickC.
+#
+# Манифест панели плагинов: что можно поставить на стик.
+# Файл плагина лежит рядом с этим манифестом.
+
+name = switch
+description = Включить, выключить или переключить выключатель
+params = channel=1|2|3|all, state*=on|off|toggle
+file = switch.ais
+version = 1
+
+name = weather
+description = Погода на сегодня
+params = city
+file = weather.ais
+version = 1
+
+name = lamp
+description = Лампа на GPIO26
+params = state*=on|off|toggle
+file = lamp.ais
+version = 1
+
+name = show_text
+description = Показать текст на экране стика
+params = text*
+file = show_text.ais
+version = 1

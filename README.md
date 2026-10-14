@@ -44,9 +44,13 @@ version = 1
 # name: show_text
 # description: Показать короткий текст на экране стика.
 # params: text*
+# label: показываю текст
 
 show(text)
 ```
+
+`label` — короткая надпись на экране, пока плагин работает. Без неё
+показывается имя плагина.
 
 Доступные функции: `show`, `answer`, `ask`, `http`, `proxy_post`, `gpio`,
 `gpio_get`, `json`, `len`, `str`, `num`, `contains`, `log`, `sleep`.

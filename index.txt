@@ -10,10 +10,10 @@ file = switch.ais
 version = 1
 
 name = weather
-description = Погода на сегодня
+description = Погода на сегодня (быстрее интернет-поиска)
 params = city
 file = weather.ais
-version = 1
+version = 2
 
 name = lamp
 description = Лампа на GPIO26
@@ -31,4 +31,4 @@ name = web_search
 description = Найти свежую информацию в интернете и ответить по ней
 params = query*
 file = web_search.ais
-version = 1
+version = 2

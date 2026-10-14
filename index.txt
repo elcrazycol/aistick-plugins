@@ -26,3 +26,9 @@ description = Показать текст на экране стика
 params = text*
 file = show_text.ais
 version = 1
+
+name = web_search
+description = Найти свежую информацию в интернете и ответить по ней
+params = query*
+file = web_search.ais
+version = 1
